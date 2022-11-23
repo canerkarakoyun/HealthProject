@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="136.38">
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC01 &quot;New password confirmation&quot; onaylanabilmelidir. (Pozitif Senaryo)" time="33.865">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna iki buyuk harf, iki kucuk harf, iki sayi ve bir ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+And Kullanici Confirm the New Password kutusuna ayni sifre tekrar girer MCK.passed
+And Kullanici iki kutucuga da ayni sifreyi girdiginde -The password and its confirmation do not match!- hatasi almadan ilerledigini dogrular. MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC02 &quot;New password confirmation&quot; onaylanabilmelidir. (Negative Test)" time="9.753">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna iki buyuk harf, iki kucuk harf, iki sayi ve bir ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+And Kullanici Confirm the New Password kutusuna farkli bir sifre girer MCK..passed
+Then Kullanici iki kutucuga da ayni sifreyi girdiginde The password and its confirmation do not match! hatasi aldigini dogrular. MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC03 Daha guclu sifre icin en az 1 kucuk harf olmali ve &quot;Password strength:&quot; seviyesinin degistigi görülebilmelidir." time="12.975">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna uc buyuk harf, iki sayi ve iki ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici password seviyesinin bes userinden dort oldugunu dogrular....passed
+And Kullanici New Password kutusuna bir kucuk harf, iki buyuk harf, iki sayi ve iki ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici sifreye eklenen kucuk harfin sifre gucunu artirdigini goruntuler MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC04 Daha guclu sifre icin en az 1 buyuk harf olmali ve &quot;Password strength&quot; seviyesinin degistigi görülebilmelidir." time="11.172">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna uc kucuk harf, iki sayi ve iki ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici password seviyesinin bes userinden dort oldugunu dogrular....passed
+And Kullanici New Password kutusuna bir buyuk harf, iki kucuk harf, iki sayi ve iki ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici sifreye eklenen buyuk harfin sifre gucunu artirdigini goruntuler MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC05 Daha guclu sifre icin en az 1 sayi olmali ve &quot;Password strength&quot; seviyesinin degistigi görülebilmelidir." time="11.231">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna uc buyuk harf, iki kucuk harf ve iki ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici password seviyesinin bes userinden dort oldugunu dogrular....passed
+And Kullanici New Password kutusuna uc buyuk harf, iki kucuk harf, bir ozel karakter ve bir sayi'dan olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici sifreye eklenen sayinin sifre gucunu artirdigini goruntuler MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC06 Daha guclu sifre icin en az 1 ozel karakter olmali ve &quot;Password strength&quot; seviyesinin degistigi görülebilmelidir." time="12.432">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna uc buyuk harf, iki kucuk harf ve iki sayidan olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici password seviyesinin bes userinden dort oldugunu dogrular....passed
+And Kullanici New Password kutusuna uc buyuk harf, iki kucuk harf, bir sayi ve bir ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici sifreye eklenen ozel karakterin sifre gucunu artirdigini goruntuler MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC07 Daha guclu sifre icin sifre en az 7 karakter olmali ve &quot;Password strength&quot; seviyesinin degistigi görülebilmelidir." time="12.963">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullaici New Password kutusuna iki buyuk harf, iki kucuk harf, bir sayi ve bir ozel karakterden olusan alti haneli bir sifre girer MCK.passed
+Then Kullanici password seviyesinin bes userinden bir oldugunu dogrular.....passed
+And Kullaici New Password kutusuna iki buyuk harf, iki kucuk harf, iki sayi ve bir ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+Then Kullanici yedi haneli sifrenin, sifre gucunu artirdigini goruntuler MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir." name="TC08 Eski sifre kullanilmamalidir." time="31.152">
+        <system-out><![CDATA[Given Kullanici Medunna sayfasina gider MCK.................................passed
+Then Kullanici user icon simgesine tiklar MCK...............................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli bir kullanici adi ve sifresi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici hesaba giris yapildigini goruntuler MCK.......................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici password kutusuna tiklar MCK..................................passed
+And Kullanici Current Password kutusuna gecerli sifreyi girer MCK...........passed
+And Kullanici New Password kutusuna iki buyuk harf, iki kucuk harf, iki sayi ve bir ozel karakterden olusan yedi haneli bir sifre girer MCK.passed
+And Kullanici Confirm the New Password kutusuna ayni sifre tekrar girer MCK.passed
+And Kullanici Save butonunu tiklar MCK......................................passed
+And Kullanici username uzerine tiklar MCK...................................passed
+And Kullanici signout butonuna tiklar MCK...................................passed
+And Kullanici user icon simgesine tiklar MCK................................passed
+And Kullanici sign in butonuna tiklar MCK...................................passed
+And Kullanici gecerli kullanici adini ve eski sifreyi girer ve sign in butonunu tiklar MCK.passed
+And Kullanici Failed to sign in! Please check your credentials and try again. uyarisini gordugunu dogrular. MCK.passed
+Then Kullanici sayfayi kapatir MCK..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,4 +1,4 @@
-@US08All
+@All
 Feature: US08 Kullanici giris yaptiginda Password sekmesi duzenlenebilir olmalidir.
   Background:
     Given Kullanici Medunna sayfasina gider MCK

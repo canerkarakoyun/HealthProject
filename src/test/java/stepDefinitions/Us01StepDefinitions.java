@@ -7,13 +7,13 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import pages.LoginPage;
+import pages.MedunnaPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class Us01StepDefinitions {
-    LoginPage loginPage = new LoginPage();
+    MedunnaPage loginPage = new MedunnaPage();
     Faker faker = new Faker();
     Actions actions = new Actions(Driver.getDriver());
 
